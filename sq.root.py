@@ -13,9 +13,9 @@ if d<0:
  #y=v/(int(a)*2) it is (√d/2a)
  y=((-(int(b)))/(int(a)*2))
  #print(int(y)) it is b/2
- z=(v/(int(a)*2),"i")
- print("Your first root=",y,"+",z)
- print("And other root= ",y,"-",z)
+ z=v/(int(a)*2)
+ print("Your first root=",y,"+",z,"i")
+ print("And other root= ",y,"-",z,"i")
  #print(y,"+",z)
  #print(y,"-",z)
  #print(z)
@@ -35,5 +35,3 @@ else:
  else:
   print("Your first root=",m)
   print("And other root= ",t)
-
-
